@@ -80,7 +80,6 @@ ul{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  padding: 24px 0;
   display: block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -139,6 +138,7 @@ ul{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 .hero .container{
   display: flex;
@@ -232,6 +232,7 @@ ul{
 .team-item {
   background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
+  box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-item-description
 {
@@ -288,6 +289,7 @@ ul{
 
 .portfolio-item {
   background-color: var(--white);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item-header {
   position: relative;
@@ -360,6 +362,7 @@ ul{
 }
 .footer .container{
   display: flex;
+  align-items: baseline;
   gap: 120px;
 }
 img{
