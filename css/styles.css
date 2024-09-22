@@ -372,18 +372,10 @@ img{
   padding-bottom: 120px;
 }
 
-.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-}
-.icon-antena {
-  width: 0.9375em;
-}
 .social-icons{
   width: 16px;
   height: 16px;
+  fill: var(--cloud);
 }
 
 .team-social-icons{
@@ -391,7 +383,6 @@ img{
   justify-content: center;
   align-items: center;
   gap: 22px;
-  fill: var(--cloud);
 }
 .icons-container {
   margin-top: 16px;
@@ -401,7 +392,6 @@ img{
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   border-radius: 50%;
   background-color: var(--iris);
   cursor: pointer;
@@ -416,12 +406,12 @@ img{
 .footer-social-icon{
   width: 24px;
   height: 24px;
+  fill: var(--cloud);
 }
 .footer-social-icons{
   display: flex;
   align-items: center;
   gap: 16px;
-  fill: var(--cloud);
 }
 
 .icons-container:hover,
