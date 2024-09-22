@@ -439,11 +439,11 @@ img{
   gap: 16px;
 }
 
-.icons-container:hover,
-.icons-container:focus{
+.icons-link:hover,
+.icons-link:focus{
   background-color: var(--ocean);
 }
-.footer .icons-container:hover,
-.footer .icons-container:focus{
+.footer .icons-link:hover,
+.footer .icons-link:focus{
   background-color: var(--green);
 }
