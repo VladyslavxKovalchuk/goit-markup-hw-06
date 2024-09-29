@@ -469,7 +469,7 @@
           </p>
         </div>
         <div class="footer-social">
-          <p class="footer-social-text">Social media</p>
+          <p class="footer-heading-text">Social media</p>
           <ul class="footer-social-icons">
             <li class="icons-container">
               <a
@@ -513,7 +513,118 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p class="footer-heading-text">Subscribe</p>
+          <form class="footer-subscribe-form">
+            <label class="footer-subscribe-label" for="useremail">
+              <input
+                class="footer-email-input"
+                type="email"
+                id="useremail"
+                name="useremail"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="footer-subscribe-button" type="submit">
+              Subscribe
+              <svg class="footer-subscribe-icon-send" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+    <div class="modal-overlay is-open">
+      <div class="modal">
+        <button type="button" class="subscribe-close">
+          <svg class="subscribe-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="subscribe-instruction">
+          Leave your contacts and we will call you back
+        </p>
+        <form>
+          <div class="subscribe-modal-form">
+            <label class="subscribe-form-label" for="user-name">Name</label>
+            <div class="subscribe-form-part">
+              <input
+                class="subscribe-form-box subscribe-form-input"
+                type="text"
+                id="user-name"
+                name="user-name"
+                required
+              />
+              <svg class="input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-user"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="subscribe-modal-form">
+            <label class="subscribe-form-label" for="user-phone">Phone</label>
+            <div class="subscribe-form-part">
+              <input
+                class="subscribe-form-box subscribe-form-input"
+                type="text"
+                id="user-phone"
+                name="user-phone"
+                required
+              />
+              <svg class="input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="subscribe-modal-form">
+            <label class="subscribe-form-label" for="user-email">Email</label>
+            <div class="subscribe-form-part">
+              <input
+                class="subscribe-form-box subscribe-form-input"
+                type="text"
+                id="user-email"
+                name="email"
+                required
+              />
+              <svg class="input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="subscribe-modal-form subscribe-modal-form-comment">
+            <label class="subscribe-form-label" for="user-comment"
+              >Comment</label
+            >
+            <textarea
+              class="subscribe-form-box subscribe-form-textarea"
+              id="user-comment"
+              placeholder="Text input"
+              name="user-comment"
+            ></textarea>
+          </div>
+          <div class="subscribe-privacy-policy-box">
+            <input
+              class="subscribe-form-checkbox visually-hidden"
+              id="user-privacy"
+              type="checkbox"
+              name="user-privacy"
+              value="true"
+            />
+            <label class="subscribe-privacy-policy" for="user-privacy">
+              <span class="subscribe-custom-checkbox">
+                <svg class="checked-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checked"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="subscribe-privacy-policy-link" href="#"
+                >Privacy Policy</a
+              >
+            </label>
+          </div>
+          <button class="subscribe-send-button" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
